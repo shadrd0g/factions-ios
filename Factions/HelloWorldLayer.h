@@ -12,6 +12,8 @@
 #import <MapKit/MapKit.h>
 #import "cocos2d.h"
 
+@class FactionAnnotation;
+
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer <MKMapViewDelegate>
 {

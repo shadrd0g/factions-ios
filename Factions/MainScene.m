@@ -46,8 +46,14 @@
         [self addChild:playerImage z:10];
         
         CCLabelTTF *name = [CCLabelTTF labelWithString:@"Username" fontName:@"Helvetica" fontSize:20.0];
-        name.position = ccp(playerImage.position.x + 90, playerImage.position.y);
+        name.position = ccp(playerImage.position.x + 45, playerImage.position.y+15);
+        name.anchorPoint = ccp(0.0f, 0.5f);
         [self addChild:name z:10];
+        
+        CCLabelTTF *motto = [CCLabelTTF labelWithString:@"\"My Motto\"" fontName:@"Helvetica" fontSize:15.0];
+        motto.anchorPoint = ccp(0.0f, 0.5f);
+        motto.position = ccp(name.position.x, name.position.y - 30);
+        [self addChild:motto z:10];
         
         CCMenuItemSprite *factionsButton = [CCMenuItemImage itemFromNormalSprite:[CCSprite spriteWithFile:@"buttonWide.png"] selectedSprite:[CCSprite spriteWithFile:@"buttonWide.png"] target:self selector:@selector(showFactions)];
         
@@ -75,6 +81,11 @@
         CCMenu *menu = [CCMenu menuWithItems:factionsButton, searchButton, settingsButton, mapButton, nil];
         menu.position = ccp(0,0);
         [self addChild:menu z:10];
+        
+        CCSprite *box = [CCSprite spriteWithFile:@"boxBg.png"];
+        box.position = ccp(winSize.width/2, winSize.height - 140);
+        [self addChild:box z:1];
+        
     }
     return self;
 }

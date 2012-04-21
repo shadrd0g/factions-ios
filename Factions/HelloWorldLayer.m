@@ -13,6 +13,7 @@
 #import <MapKit/MapKit.h>
 #import "MarkerAnnotation.h"
 #import "MainScene.h"
+#import "FactionAnnotation.h"
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -44,6 +45,7 @@
 	if( (self=[super init])) {
         map = [[MKMapView alloc] initWithFrame: CGRectMake(0, 0, 320, 430)];
         map.delegate = self;
+        map.zoomEnabled = NO;
         //Define map view region
         MKCoordinateSpan span;
         span.latitudeDelta=.01;
@@ -90,6 +92,26 @@
         [map addOverlay:overflowPoly1];
         [overflowPoly1 release];*/
         
+        for (int i =0; i<20; i++) {
+            for(int j=0; j< 20; j++)
+            {
+                CLLocationCoordinate2D overflowLotCoords[5]={
+                CLLocationCoordinate2DMake(34.059+0.001*i, -118.437-0.001*j),
+                CLLocationCoordinate2DMake(34.059+0.001*(i+1), -118.437-0.001*j),
+                CLLocationCoordinate2DMake(34.059+0.001*(i+1), -118.437-0.001*(j+1)),
+                CLLocationCoordinate2DMake(34.059+0.001*(i), -118.437-0.001*(j+1)),
+                CLLocationCoordinate2DMake(34.059+0.001*i, -118.437-0.001*j)
+                };
+                
+            
+                MKPolygon *overflowPoly1 = [MKPolygon polygonWithCoordinates:overflowLotCoords count:5];
+                [map addOverlay:overflowPoly1];
+                [overflowPoly1 release];
+            }
+            
+        }
+        
+        
         //Initialize annotation
         MyAnnotationClass *commuterLotAnnotation=[[MyAnnotationClass alloc] initWithCoordinate:CLLocationCoordinate2DMake(34.069, -118.447)];
         
@@ -130,17 +152,19 @@
         CGPoint touchPoint = [sender locationInView:map];   
         CLLocationCoordinate2D touchMapCoordinate = [map convertPoint:touchPoint toCoordinateFromView:map];
         
-        MyAnnotationClass *annot = [[MyAnnotationClass alloc] init];
-        annot.coordinate = touchMapCoordinate;
-        annot.name = @"Name";
-        [map addAnnotation:annot];
+        FactionAnnotation *factionAnnotation = [[FactionAnnotation alloc] init];
         
-        static NSString *identifier = @"MyLocation";   
-        MKPinAnnotationView *annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annot reuseIdentifier:identifier];
+        factionAnnotation.coordinate = touchMapCoordinate;
+        factionAnnotation.name = @"Faction";
+        factionAnnotation.description = @"10 Players";
+        [map addAnnotation:factionAnnotation];
+        //[map removeAnnotation:factionAnnotation];
+        
+        static NSString *identifier = @"FactionAnnotation";   
+        MKPinAnnotationView *annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:factionAnnotation reuseIdentifier:identifier];
         annotationView.enabled = YES;
         annotationView.canShowCallout = YES;
-        [annot release];
-
+        [factionAnnotation release];
     }
 }
 
@@ -150,7 +174,7 @@
         MKPolygonView *view = [[[MKPolygonView alloc] initWithOverlay:overlay] autorelease];
         view.lineWidth=1;
         view.strokeColor=[UIColor blueColor];
-        view.fillColor=[[UIColor blueColor] colorWithAlphaComponent:0.5];
+        view.fillColor=[[UIColor blueColor] colorWithAlphaComponent:0.1];
         return view;
     }
     return nil;
@@ -168,9 +192,17 @@
             //Here's where the magic happens
             annotationView.image=[UIImage imageNamed:@"Icon-Small.png"];
             annotationView.enabled = YES;
-            annotationView.canShowCallout = YES;
         }
         return annotationView;
+    }
+    else if ([annotation isKindOfClass:[FactionAnnotation class]]) {
+        MKPinAnnotationView *annView=[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"FactionAnnotation"];
+        annView.pinColor = MKPinAnnotationColorGreen;
+        annView.animatesDrop = TRUE;
+        annView.canShowCallout = YES;
+        
+        [mapView selectAnnotation:annotation animated:YES];
+        return annView;
     }
     return nil;
 }
