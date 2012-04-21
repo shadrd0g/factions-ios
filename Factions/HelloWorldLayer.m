@@ -11,6 +11,7 @@
 #import "HelloWorldLayer.h"
 #import "CCUIViewWrapper.h"
 #import <MapKit/MapKit.h>
+#import "MarkerAnnotation.h"
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -37,17 +38,19 @@
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
         MKMapView * map = [[MKMapView alloc] initWithFrame: CGRectMake(0, 0, 320, 480)];
+        map.delegate = self;
         //Define map view region
         MKCoordinateSpan span;
         span.latitudeDelta=.01;
         span.longitudeDelta=.01;
         MKCoordinateRegion region;
         region.span=span;
-        region.center=CLLocationCoordinate2DMake(39.046259, -76.851195);
+        region.center=CLLocationCoordinate2DMake(34.069, -118.447);
         [map setRegion:region animated:YES];
         [map regionThatFits:region];
         [map setRegion:region animated:YES];
         [map regionThatFits:region];
+        /*
         CLLocationCoordinate2D commuterLotCoords[5]={
             CLLocationCoordinate2DMake(39.048019,-76.850535),
             CLLocationCoordinate2DMake(39.048027,-76.850234),
@@ -80,7 +83,20 @@
         
         MKPolygon *overflowPoly1 = [MKPolygon polygonWithCoordinates:overflowLotCoords count:15];
         [map addOverlay:overflowPoly1];
-        [overflowPoly1 release];
+        [overflowPoly1 release];*/
+        
+        //Initialize annotation
+        MyAnnotationClass *commuterLotAnnotation=[[MyAnnotationClass alloc] initWithCoordinate:CLLocationCoordinate2DMake(34.069, -118.447)];
+        
+        //Add them to array
+        myAnnotations=[NSArray arrayWithObjects:commuterLotAnnotation, nil];
+        
+        //Release the annotations now that they've been added to the array
+        [commuterLotAnnotation release];
+        
+        //add array of annotations to map
+        [map addAnnotations:myAnnotations];
+        
         CCUIViewWrapper *wrapper = [CCUIViewWrapper wrapperForUIView:map];
         [self addChild:wrapper];
 	}
@@ -94,6 +110,23 @@
         view.strokeColor=[UIColor blueColor];
         view.fillColor=[[UIColor blueColor] colorWithAlphaComponent:0.5];
         return view;
+    }
+    return nil;
+}
+
+-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id)annotation{
+    static NSString *parkingAnnotationIdentifier=@"ParkingAnnotationIdentifier";
+    
+    if([annotation isKindOfClass:[MyAnnotationClass class]]){
+        //Try to get an unused annotation, similar to uitableviewcells
+        MKAnnotationView *annotationView=[mapView dequeueReusableAnnotationViewWithIdentifier:parkingAnnotationIdentifier];
+        //If one isn't available, create a new one
+        if(!annotationView){
+            annotationView=[[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:parkingAnnotationIdentifier];
+            //Here's where the magic happens
+            annotationView.image=[UIImage imageNamed:@"Icon-Small.png"];
+        }
+        return annotationView;
     }
     return nil;
 }

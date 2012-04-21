@@ -8,11 +8,14 @@
 
 
 // When you import this file, you import all the cocos2d classes
+#import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import "cocos2d.h"
 
 // HelloWorldLayer
-@interface HelloWorldLayer : CCLayer
+@interface HelloWorldLayer : CCLayer <MKMapViewDelegate>
 {
+    NSArray *myAnnotations;
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child

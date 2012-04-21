@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F15AA90154287D700044356 /* MarkerAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15AA8F154287D700044356 /* MarkerAnnotation.m */; };
 		3F7BA30D15427DC100529761 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7BA30C15427DC100529761 /* QuartzCore.framework */; };
 		3F7BA30F15427DC100529761 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7BA30E15427DC100529761 /* OpenGLES.framework */; };
 		3F7BA31115427DC100529761 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7BA31015427DC100529761 /* OpenAL.framework */; };
@@ -128,6 +129,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F15AA8E154287D700044356 /* MarkerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerAnnotation.h; sourceTree = "<group>"; };
+		3F15AA8F154287D700044356 /* MarkerAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerAnnotation.m; sourceTree = "<group>"; };
 		3F7BA30815427DC100529761 /* Factions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Factions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7BA30C15427DC100529761 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3F7BA30E15427DC100529761 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -433,6 +436,8 @@
 				3F7BA47215427DC200529761 /* RootViewController.m */,
 				3F7BA47415427DC200529761 /* HelloWorldLayer.h */,
 				3F7BA47515427DC200529761 /* HelloWorldLayer.m */,
+				3F15AA8E154287D700044356 /* MarkerAnnotation.h */,
+				3F15AA8F154287D700044356 /* MarkerAnnotation.m */,
 				3F7BA47D15427DF300529761 /* CCUIViewWrapper.h */,
 				3F7BA47E15427DF300529761 /* CCUIViewWrapper.m */,
 				3F7BA47715427DC200529761 /* GameConfig.h */,
@@ -939,6 +944,7 @@
 				3F7BA47315427DC200529761 /* RootViewController.m in Sources */,
 				3F7BA47615427DC200529761 /* HelloWorldLayer.m in Sources */,
 				3F7BA47F15427DF300529761 /* CCUIViewWrapper.m in Sources */,
+				3F15AA90154287D700044356 /* MarkerAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1032,6 +1038,7 @@
 				3F7BA47C15427DC200529761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
