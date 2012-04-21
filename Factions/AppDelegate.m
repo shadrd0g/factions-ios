@@ -13,10 +13,12 @@
 #import "HelloWorldLayer.h"
 #import "RootViewController.h"
 #import "MainScene.h"
+#import "CreateAccount.h"
 
 @implementation AppDelegate
 
 @synthesize window;
+@synthesize facebook;
 
 - (void) removeStartupFlicker
 {
@@ -90,7 +92,7 @@
 #endif
 	
 	[director setAnimationInterval:1.0/60];
-	[director setDisplayFPS:YES];
+	[director setDisplayFPS:NO];
 	
 	
 	// make the OpenGLView a child of the view controller
@@ -109,9 +111,51 @@
 	
 	// Removes the startup flicker
 	[self removeStartupFlicker];
+    
+    facebook = [[Facebook alloc] initWithAppId:@"299813003427555" andDelegate:self];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if ([defaults objectForKey:@"FBAccessTokenKey"] 
+        && [defaults objectForKey:@"FBExpirationDateKey"]) {
+        facebook.accessToken = [defaults objectForKey:@"FBAccessTokenKey"];
+        facebook.expirationDate = [defaults objectForKey:@"FBExpirationDateKey"];
+    }
+
+    if (![facebook isSessionValid]) {
+        [facebook authorize:nil];
+    }
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [MainScene scene]];
+    if ([defaults objectForKey:@"FBAccessTokenKey"] != nil) {
+        [[CCDirector sharedDirector] runWithScene: [MainScene scene]];
+    }
+    else {
+        [[CCDirector sharedDirector] runWithScene: [CreateAccount scene]];
+    }
+}
+
+// Pre iOS 4.2 support
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [facebook handleOpenURL:url]; 
+}
+
+// For iOS 4.2+ support
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [facebook handleOpenURL:url]; 
+}
+- (void)fbDidLogin {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:[facebook accessToken] forKey:@"FBAccessTokenKey"];
+    [defaults setObject:[facebook expirationDate] forKey:@"FBExpirationDateKey"];
+    [defaults synchronize];
+    
+}
+-(void)fbDidExtendToken:(NSString *)accessToken expiresAt:(NSDate *)expiresAt {
+    NSLog(@"token extended");
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:accessToken forKey:@"FBAccessTokenKey"];
+    [defaults setObject:expiresAt forKey:@"FBExpirationDateKey"];
+    [defaults synchronize];
 }
 
 

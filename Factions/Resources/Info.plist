@@ -44,5 +44,14 @@
 		<key>opengles-1</key>
 		<true/>
 	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb299813003427555</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

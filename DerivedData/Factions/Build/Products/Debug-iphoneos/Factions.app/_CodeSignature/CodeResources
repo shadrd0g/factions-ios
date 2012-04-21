@@ -8,6 +8,18 @@
 		<data>
 		EXqqbJ/eY77z9H5KAldjzIfqm8o=
 		</data>
+		<key>FBDialog.bundle/images/close.png</key>
+		<data>
+		lPlIbbW7NpLV1mLzR5iSJbYh4Do=
+		</data>
+		<key>FBDialog.bundle/images/close@2x.png</key>
+		<data>
+		i9lYZZOBgyVfCZZ5Vlclzb5W9II=
+		</data>
+		<key>FBDialog.bundle/images/fbicon.png</key>
+		<data>
+		O10PJ3vPkAdypNUGk3PgmTOlWLg=
+		</data>
 		<key>Icon-72.png</key>
 		<data>
 		oXZhVssAAu3Qb9oISAEfTOcsoL4=
@@ -36,13 +48,25 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>backButton.png</key>
+		<data>
+		tooemDjqyOp9enFTJ+pG1Fvbakc=
+		</data>
 		<key>background.jpg</key>
 		<data>
 		IrWDICWHWLU7OpLc2dpLbv398HE=
 		</data>
+		<key>boxBg.png</key>
+		<data>
+		6SfrVER8H7+B70+OmzFGT6CsOPU=
+		</data>
 		<key>buttonWide.png</key>
 		<data>
 		jZfBYxgOUUxbw63XaPT9OHAHuOU=
+		</data>
+		<key>circleButton.png</key>
+		<data>
+		KkFoHQVx8ZMEF4tthH1RFuc3IY4=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>

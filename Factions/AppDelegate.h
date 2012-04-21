@@ -7,14 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FBConnect.h"
 
 @class RootViewController;
 
-@interface AppDelegate : NSObject <UIApplicationDelegate> {
+@interface AppDelegate : NSObject <UIApplicationDelegate, FBSessionDelegate> {
 	UIWindow			*window;
 	RootViewController	*viewController;
+    Facebook *facebook;
 }
 
 @property (nonatomic, retain) UIWindow *window;
+@property (nonatomic, retain) Facebook *facebook;
 
 @end

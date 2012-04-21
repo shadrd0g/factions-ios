@@ -92,15 +92,15 @@
         [map addOverlay:overflowPoly1];
         [overflowPoly1 release];*/
         
-        for (int i =0; i<20; i++) {
-            for(int j=0; j< 20; j++)
+        for (int i =0; i<10; i++) {
+            for(int j=0; j< 10; j++)
             {
                 CLLocationCoordinate2D overflowLotCoords[5]={
-                CLLocationCoordinate2DMake(34.059+0.001*i, -118.437-0.001*j),
-                CLLocationCoordinate2DMake(34.059+0.001*(i+1), -118.437-0.001*j),
-                CLLocationCoordinate2DMake(34.059+0.001*(i+1), -118.437-0.001*(j+1)),
-                CLLocationCoordinate2DMake(34.059+0.001*(i), -118.437-0.001*(j+1)),
-                CLLocationCoordinate2DMake(34.059+0.001*i, -118.437-0.001*j)
+                CLLocationCoordinate2DMake(34.059+0.002*i, -118.437-0.002*j),
+                CLLocationCoordinate2DMake(34.059+0.002*(i+1), -118.437-0.002*j),
+                CLLocationCoordinate2DMake(34.059+0.002*(i+1), -118.437-0.002*(j+1)),
+                CLLocationCoordinate2DMake(34.059+0.002*(i), -118.437-0.002*(j+1)),
+                CLLocationCoordinate2DMake(34.059+0.002*i, -118.437-0.002*j)
                 };
                 
             
@@ -168,13 +168,12 @@
     }
 }
 
-
 -(MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id )overlay{
     if([overlay isKindOfClass:[MKPolygon class]]){
         MKPolygonView *view = [[[MKPolygonView alloc] initWithOverlay:overlay] autorelease];
         view.lineWidth=1;
-        view.strokeColor=[UIColor blueColor];
-        view.fillColor=[[UIColor blueColor] colorWithAlphaComponent:0.1];
+        //view.strokeColor=[UIColor blueColor];
+        view.fillColor=[[UIColor blueColor] colorWithAlphaComponent:0.5];
         return view;
     }
     return nil;
@@ -217,4 +216,5 @@
 	// don't forget to call "super dealloc"
 	[super dealloc];
 }
+
 @end

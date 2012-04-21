@@ -2,77 +2,80 @@ TFactions
 v5
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Info.plist Factions/Resources/Info.plist
 cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Info.plist Factions/Resources/Info.plist
 cProcessPCH /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch.gch Factions/Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
 cProcessPCH /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-awpngkuxfltolxhahhqsmznbursy/Prefix.pch.gch Factions/Prefix.pch normal armv7 c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionGrid3D.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionGrid3D.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCLayer.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCLayer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCSpriteFrame.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCSpriteFrame.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCDirectorIOS.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/CCDirectorIOS.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTouchHandler.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/CCTouchHandler.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/ZipUtils.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Support/ZipUtils.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CocosDenshion.o /Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/CocosDenshion.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/EAGLView.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/EAGLView.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCAction.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCAction.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionEase.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionEase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionCamera.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionCamera.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionInterval.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionInterval.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionManager.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionManager.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionGrid.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionGrid.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionInstant.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionInstant.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionPageTurn3D.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionPageTurn3D.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionProgressTimer.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionProgressTimer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CGPointExtension.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Support/CGPointExtension.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTouchDispatcher.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/Facebook.o /Users/Jeremy/Documents/factions-ios/Factions/src/Facebook.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJSON.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTMXXMLParser.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTMXXMLParser.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CDAudioManager.o /Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/CDAudioManager.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CocosDenshion.o /Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/CocosDenshion.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCAction.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCAction.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionCamera.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionCamera.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionEase.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionEase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionGrid.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionGrid.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionInterval.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionInterval.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionGrid3D.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionGrid3D.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionInstant.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionInstant.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionManager.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionManager.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionPageTurn3D.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionPageTurn3D.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionTiledGrid.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionTiledGrid.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCActionTween.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCActionTween.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCAnimationCache.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCAnimationCache.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCAnimation.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCAnimation.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCAtlasNode.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCAtlasNode.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCAnimationCache.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCAnimationCache.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCBlockSupport.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCBlockSupport.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCCamera.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCCamera.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCBlockSupport.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCBlockSupport.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCConfiguration.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCConfiguration.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCDirector.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCDirector.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCDrawingPrimitives.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCDrawingPrimitives.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCGrabber.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCGrabber.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCGrid.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCGrid.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCLabelTTF.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCLabelTTF.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCLabelAtlas.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCLabelAtlas.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCGrid.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCGrid.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCGrabber.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCGrabber.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCLabelBMFont.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCLabelBMFont.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCLabelTTF.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCLabelTTF.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCLayer.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCLayer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCMenu.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCMenu.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCMenuItem.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCMenuItem.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCMotionStreak.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCMotionStreak.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCNode.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCNode.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCParallaxNode.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCParallaxNode.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCParticleExamples.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCParticleExamples.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCNode.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCNode.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCParticleSystem.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCParticleSystem.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCParticleSystemPoint.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCParticleSystemPoint.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCParticleSystemQuad.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCParticleSystemQuad.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCProgressTimer.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCProgressTimer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCRenderTexture.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCRenderTexture.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCScene.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCRibbon.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCRibbon.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCScheduler.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCScheduler.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCSprite.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCSprite.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCScene.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCSpriteBatchNode.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCSpriteBatchNode.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCSpriteFrame.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCSpriteFrame.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCSpriteFrameCache.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCSpriteFrameCache.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTexture2D.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTexture2D.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTextureAtlas.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTextureAtlas.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTileMapAtlas.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTileMapAtlas.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTexturePVR.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTexturePVR.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTMXLayer.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTMXLayer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTextureCache.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTextureCache.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTexturePVR.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTexturePVR.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTileMapAtlas.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTileMapAtlas.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTMXLayer.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTMXLayer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTMXObjectGroup.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTMXObjectGroup.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTMXTiledMap.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTMXTiledMap.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTransitionPageTurn.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTransitionPageTurn.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTMXXMLParser.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTMXXMLParser.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/cocos2d.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/cocos2d.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTransitionRadial.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTransitionRadial.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTransition.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTransition.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTouchDispatcher.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTransitionPageTurn.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTransitionPageTurn.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/cocos2d.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/cocos2d.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCDirectorIOS.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/CCDirectorIOS.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTransitionRadial.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCTransitionRadial.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCTouchHandler.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/CCTouchHandler.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/EAGLView.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/EAGLView.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/ES1Renderer.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/ES1Renderer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/glu.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/glu.c normal armv7 c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCEventDispatcher.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/Mac/CCEventDispatcher.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCDirectorMac.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/Mac/CCDirectorMac.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCEventDispatcher.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/Mac/CCEventDispatcher.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MacGLView.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/Mac/MacGLView.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MacWindow.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/Mac/MacWindow.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/base64.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Support/base64.c normal armv7 c com.apple.compilers.llvmgcc42
@@ -81,32 +84,42 @@ cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCProfiling.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Support/CCProfiling.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/ccUtils.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Support/ccUtils.c normal armv7 c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/TGAlib.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Support/TGAlib.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CGPointExtension.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Support/CGPointExtension.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CDAudioManager.o /Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/CDAudioManager.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CDOpenALSupport.o /Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/CDOpenALSupport.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/TransformUtils.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Support/TransformUtils.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SimpleAudioEngine.o /Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/SimpleAudioEngine.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CDataScanner.o /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/CDataScanner.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/cocoslive.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocoslive/cocoslive.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CLScoreServerPost.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocoslive/CLScoreServerPost.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SimpleAudioEngine.o /Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/SimpleAudioEngine.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CDOpenALSupport.o /Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/CDOpenALSupport.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/ZipUtils.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Support/ZipUtils.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/cocoslive.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocoslive/cocoslive.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CLScoreServerRequest.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocoslive/CLScoreServerRequest.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CDataScanner_Extensions.o /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/Extensions/CDataScanner_Extensions.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSDictionary_JSONExtensions.o /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/Extensions/NSDictionary_JSONExtensions.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CJSONDeserializer.o /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/JSON/CJSONDeserializer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CDataScanner.o /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/CDataScanner.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CJSONScanner.o /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/JSON/CJSONScanner.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CJSONSerializer.o /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/JSON/CJSONSerializer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FontLabel.o /Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/FontLabel.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FontLabelStringDrawing.o /Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/FontLabelStringDrawing.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FontLabel.o /Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/FontLabel.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/ZAttributedString.o /Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/ZAttributedString.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FontManager.o /Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/FontManager.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/main.o /Users/Jeremy/Documents/factions-ios/Factions/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/ZFont.o /Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/ZFont.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/AppDelegate.o /Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/RootViewController.o /Users/Jeremy/Documents/factions-ios/Factions/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/main.o /Users/Jeremy/Documents/factions-ios/Factions/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/HelloWorldLayer.o /Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MainScene.o /Users/Jeremy/Documents/factions-ios/Factions/MainScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/RootViewController.o /Users/Jeremy/Documents/factions-ios/Factions/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCUIViewWrapper.o /Users/Jeremy/Documents/factions-ios/Factions/CCUIViewWrapper.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MarkerAnnotation.o /Users/Jeremy/Documents/factions-ios/Factions/MarkerAnnotation.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MainScene.o /Users/Jeremy/Documents/factions-ios/Factions/MainScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/AppDelegate.o /Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionAnnotation.o /Users/Jeremy/Documents/factions-ios/Factions/FactionAnnotation.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBDialog.o /Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBFrictionlessRequestSettings.o /Users/Jeremy/Documents/factions-ios/Factions/src/FBFrictionlessRequestSettings.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBLoginDialog.o /Users/Jeremy/Documents/factions-ios/Factions/src/FBLoginDialog.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSString+SBJSON.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBRequest.o /Users/Jeremy/Documents/factions-ios/Factions/src/FBRequest.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonBase.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonParser.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonWriter.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionsScene.o /Users/Jeremy/Documents/factions-ios/Factions/FactionsScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cLd /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions normal armv7
 cGenerateDSYMFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions
 cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Default.png Factions/Resources/Default.png
@@ -114,12 +127,16 @@ cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Pro
 cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon-72.png Factions/Resources/Icon-72.png
 cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon-Small-50.png Factions/Resources/Icon-Small-50.png
 cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon-Small.png Factions/Resources/Icon-Small.png
-cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon-Small@2x.png Factions/Resources/Icon-Small@2x.png
 cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon@2x.png Factions/Resources/Icon@2x.png
 cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon.png Factions/Resources/Icon.png
+cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon-Small@2x.png Factions/Resources/Icon-Small@2x.png
 cCpResource Factions/Resources/iTunesArtwork DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/iTunesArtwork
 cCpResource Factions/background.jpg DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/background.jpg
 cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/buttonWide.png Factions/buttonWide.png
+cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/circleButton.png Factions/circleButton.png
+cCpResource Factions/src/FBDialog.bundle DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/FBDialog.bundle
+cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/boxBg.png Factions/boxBg.png
+cCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/backButton.png Factions/backButton.png
 cProcessProductPackaging "/Users/Jeremy/Library/MobileDevice/Provisioning Profiles/71902BD3-3360-4274-8EDE-C6F3D52CA8DA.mobileprovision" /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/embedded.mobileprovision
 cProcessProductPackaging "/Users/Jeremy/Library/MobileDevice/Provisioning Profiles/71902BD3-3360-4274-8EDE-C6F3D52CA8DA.mobileprovision" /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/embedded.mobileprovision
 cTouch /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app
@@ -352,12 +369,12 @@ t1333643706
 s12695
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent
-t1334991749
+t1335016012
 s422
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/AppDelegate.o
-t1334991749
-s63220
+t1335015834
+s71628
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCAction.o
 t1334991746
@@ -671,10 +688,38 @@ N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/F
 t1334991748
 s23544
 
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBDialog.o
+t1335015684
+s102088
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBFrictionlessRequestSettings.o
+t1335015684
+s54628
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBLoginDialog.o
+t1335015684
+s44420
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBRequest.o
+t1335015684
+s41436
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/Facebook.o
+t1335015684
+s93552
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionAnnotation.o
+t1335015683
+s11944
+
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/Factions.LinkFileList
-c000000004F925B810000000000003F1E
-t1334991745
-s16158
+c000000004F92B903000000000000473C
+t1335015683
+s18236
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionsScene.o
+t1335015684
+s9540
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FontLabel.o
 t1334991748
@@ -689,8 +734,8 @@ t1334991748
 s15152
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/HelloWorldLayer.o
-t1334991749
-s56680
+t1335015684
+s65804
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MacGLView.o
 t1334991748
@@ -701,20 +746,44 @@ t1334991748
 s860
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MainScene.o
-t1334991749
-s16636
+t1335015683
+s20580
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MarkerAnnotation.o
-t1334991749
-s10852
+t1335015683
+s11252
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSDictionary_JSONExtensions.o
 t1334991748
 s5304
 
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1335015684
+s5848
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSString+SBJSON.o
+t1335015684
+s5872
+
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/RootViewController.o
 t1334991746
 s40600
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJSON.o
+t1335015684
+s16504
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonBase.o
+t1335015684
+s10600
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonParser.o
+t1335015684
+s33988
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonWriter.o
+t1335015684
+s24652
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SimpleAudioEngine.o
 t1334991748
@@ -781,20 +850,24 @@ t1334991746
 s14496784
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app
-t1334991750
-s646
+t1335016012
+s782
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM
-t1334991749
+t1335015834
 s102
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Default.png
 t1334991749
 s32497
 
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/FBDialog.bundle
+t1335015684
+s102
+
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions
-t1334991750
-s1359264
+t1335016012
+s1483568
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon-72.png
 t1334991749
@@ -821,24 +894,36 @@ t1334991749
 s23727
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Info.plist
-t1334991745
-s1102
+t1335016012
+s1183
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/PkgInfo
-t1334991745
+t1335016012
 s8
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/ResourceRules.plist
 t1334991745
 s485
 
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/backButton.png
+t1335015684
+s2569
+
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/background.jpg
 t1334991749
 s73752
 
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/boxBg.png
+t1335015684
+s2173
+
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/buttonWide.png
 t1334991749
 s2192
+
+N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/circleButton.png
+t1335015684
+s2463
 
 N/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/embedded.mobileprovision
 t1334991749
@@ -853,15 +938,16 @@ t1334991749
 s61982
 
 N/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.h
-c000000004F9249EA000000000000016F
-t1334987242
-s367
+c000000004F92B75B00000000000001E2
+t1335015259
+s482
 i<UIKit/UIKit.h>
+i"FBConnect.h"
 
 N/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m
-c000000004F9259DC000000000000117C
-t1334991324
-s4476
+c000000004F92B9970000000000001772
+t1335015831
+s6002
 i"cocos2d.h"
 i"AppDelegate.h"
 i"GameConfig.h"
@@ -881,27 +967,54 @@ t1334987242
 s2703
 i"CCUIViewWrapper.h"
 
+N/Users/Jeremy/Documents/factions-ios/Factions/FactionAnnotation.h
+c000000004F92777B00000000000001C6
+t1334998907
+s454
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/Jeremy/Documents/factions-ios/Factions/FactionAnnotation.m
+c000000004F927B7E00000000000002A1
+t1334999934
+s673
+i"FactionAnnotation.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/FactionsScene.h
+c000000004F92A1D700000000000000E3
+t1335009751
+s227
+i"cocos2d.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/FactionsScene.m
+c000000004F92A216000000000000023C
+t1335009814
+s572
+i"FactionsScene.h"
+
 N/Users/Jeremy/Documents/factions-ios/Factions/GameConfig.h
 c000000004F924EFA000000000000043B
 t1334988538
 s1083
 
 N/Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.h
-c000000004F92517800000000000001E8
-t1334989176
-s488
+c000000004F9282DC0000000000000217
+t1335001820
+s535
 i<UIKit/UIKit.h>
 i<MapKit/MapKit.h>
 i"cocos2d.h"
 
 N/Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.m
-c000000004F9251F700000000000015C4
-t1334989303
-s5572
+c000000004F92BA780000000000002322
+t1335016056
+s8994
 i"HelloWorldLayer.h"
 i"CCUIViewWrapper.h"
 i<MapKit/MapKit.h>
 i"MarkerAnnotation.h"
+i"MainScene.h"
+i"FactionAnnotation.h"
 
 N/Users/Jeremy/Documents/factions-ios/Factions/MainScene.h
 c000000004F92531800000000000000E6
@@ -910,15 +1023,16 @@ s230
 i"cocos2d.h"
 
 N/Users/Jeremy/Documents/factions-ios/Factions/MainScene.m
-c000000004F925B39000000000000063D
-t1334991673
-s1597
+c000000004F92BE1000000000000010A8
+t1335016976
+s4264
 i"MainScene.h"
+i"HelloWorldLayer.h"
 
 N/Users/Jeremy/Documents/factions-ios/Factions/MarkerAnnotation.h
-c000000004F92506900000000000001C5
-t1334988905
-s453
+c000000004F926F5900000000000001C6
+t1334996825
+s454
 i<Foundation/Foundation.h>
 i<MapKit/MapKit.h>
 
@@ -995,15 +1109,30 @@ i"cocos2d.h"
 i"RootViewController.h"
 i"GameConfig.h"
 
+N/Users/Jeremy/Documents/factions-ios/Factions/backButton.png
+c000000004F92619100000000000009DC
+t1334993297
+s2524
+
 N/Users/Jeremy/Documents/factions-ios/Factions/background.jpg
 c000000004F9259000000000000012018
 t1334991104
 s73752
 
+N/Users/Jeremy/Documents/factions-ios/Factions/boxBg.png
+c000000004F9299740000000000000781
+t1335007604
+s1921
+
 N/Users/Jeremy/Documents/factions-ios/Factions/buttonWide.png
 c000000004F925A8E00000000000007EC
 t1334991502
 s2028
+
+N/Users/Jeremy/Documents/factions-ios/Factions/circleButton.png
+c000000004F925E8B000000000000095D
+t1334992523
+s2397
 
 N/Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/CDAudioManager.h
 c000000004F9249EA000000000000251D
@@ -2839,20 +2968,200 @@ t1334987242
 s372
 i<UIKit/UIKit.h>
 
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBConnect.h
+c000000004F928AB100000000000002C2
+t1335003825
+s706
+i"Facebook.h"
+i"FBDialog.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+i"SBJSON.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.bundle
+c000000004F928AB10000000000000066
+t1335003825
+s102
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.h
+c000000004F928AB100000000000012BD
+t1335003825
+s4797
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.m
+c000000004F928AB1000000000000677B
+t1335003825
+s26491
+i"FBDialog.h"
+i"Facebook.h"
+i"FBFrictionlessRequestSettings.h"
+i"JSON.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBFrictionlessRequestSettings.h
+c000000004F928AB10000000000000882
+t1335003825
+s2178
+i<Foundation/Foundation.h>
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBFrictionlessRequestSettings.m
+c000000004F928AB1000000000000164B
+t1335003825
+s5707
+i"Facebook.h"
+i"FBFrictionlessRequestSettings.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBLoginDialog.h
+c000000004F928AB10000000000000571
+t1335003825
+s1393
+i"FBDialog.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBLoginDialog.m
+c000000004F928AB10000000000000C40
+t1335003825
+s3136
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBRequest.h
+c000000004F928AB10000000000001016
+t1335003825
+s4118
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/FBRequest.m
+c000000004F928AB1000000000000333F
+t1335003825
+s13119
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/Facebook.h
+c000000004F928AB1000000000000132D
+t1335003825
+s4909
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/Facebook.m
+c000000004F928AB10000000000007F01
+t1335003825
+s32513
+i"Facebook.h"
+i"FBFrictionlessRequestSettings.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/JSON.h
+c000000004F928AB100000000000008F9
+t1335003825
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSObject+SBJSON.h
+c000000004F928AB10000000000000A01
+t1335003825
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSObject+SBJSON.m
+c000000004F928AB1000000000000089E
+t1335003825
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSString+SBJSON.h
+c000000004F928AB10000000000000916
+t1335003825
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSString+SBJSON.m
+c000000004F928AB1000000000000087D
+t1335003825
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJSON.h
+c000000004F928AB10000000000000AED
+t1335003825
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJSON.m
+c000000004F928AB10000000000001ABC
+t1335003825
+s6844
+i"SBJSON.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonBase.h
+c000000004F928AB10000000000000B82
+t1335003825
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonBase.m
+c000000004F928AB10000000000000AC1
+t1335003825
+s2753
+i"SBJsonBase.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonParser.h
+c000000004F928AB10000000000000C0B
+t1335003825
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonParser.m
+c000000004F928AB100000000000036D0
+t1335003825
+s14032
+i"SBJsonParser.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonWriter.h
+c000000004F928AB10000000000001140
+t1335003825
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonWriter.m
+c000000004F928AB10000000000001F26
+t1335003825
+s7974
+i"SBJsonWriter.h"
+
 N/Users/Jeremy/Library/MobileDevice/Provisioning Profiles/71902BD3-3360-4274-8EDE-C6F3D52CA8DA.mobileprovision
 c000000004F7DC85E0000000000001DF6
 t1333643358
 s7670
 
 NFactions/Resources/Info.plist
-c000000004F9249EB000000000000051C
-t1334987243
-s1308
+c000000004F92BA4B00000000000005BE
+t1335016011
+s1470
 
 CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m
 r0
 
 CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/CCUIViewWrapper.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/FactionAnnotation.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/FactionsScene.m
 r0
 
 CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.m
@@ -3152,22 +3461,54 @@ r0
 CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/main.m
 r0
 
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/FBFrictionlessRequestSettings.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/FBLoginDialog.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/FBRequest.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/Facebook.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSObject+SBJSON.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSString+SBJSON.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJSON.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonBase.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonParser.m
+r0
+
+CBuild AST from /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonWriter.m
+r0
+
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6a182a579342b541^57979f579342b541^---0#1#0#--18"Check dependencies36"0A354D61-D82C-429A-AB71-F6F18193C6B5-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7e370191f542b541^73680191f542b541^---0#1#0#--18"Check dependencies36"30C73D38-4073-4F94-B6A8-67F0041654D3-
 
 CCodeSign /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app
-s356684631.871288
-e356684632.068672
+s356709777.939673
+e356709778.189301
 r1
 xCodeSign
 x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app
-o/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app: replacing existing signature
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CodeSign DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.appce1bdf579342b541^189411589342b541^-131"/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/0000000000000000^911"CodeSign DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app    cd /Users/Jeremy/Documents/factions-ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 9b4de6b74f34627e8b21f061d09e432628818737 --resource-rules=/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/ResourceRules.plist --entitlements /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app36"0A50CBB7-9B45-4B87-8F6B-FD8970236071-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CodeSign DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app849bf091f542b541^03773092f542b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/0000000000000000^911"CodeSign DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app    cd /Users/Jeremy/Documents/factions-ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 9b4de6b74f34627e8b21f061d09e432628818737 --resource-rules=/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/ResourceRules.plist --entitlements /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app36"21CE4503-70D7-4DF1-B8CE-E2586FA32668-
 
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/AppDelegate.o /Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s356684548.977426
-e356684549.135461
+s356708634.100783
+e356708634.248641
 r1
 xCompileC
 xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/AppDelegate.o
@@ -3176,7 +3517,12 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.me84cfa049342b541^82ad22059342b541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m0000000000000000^2380"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/AppDelegate.o Factions/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/AppDelegate.o36"20205C8A-FE4A-4FE3-99AB-82F2ED9D1A0F-
+o/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: incomplete implementation of class 'AppDelegate'
+o/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: method definition for '-fbSessionInvalidated' not found
+o/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: method definition for '-fbDidLogout' not found
+o/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: method definition for '-fbDidNotLogin:' not found
+o/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: class 'AppDelegate' does not fully implement the 'FBSessionDelegate' protocol
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m09e1191af142b541^f7ac531af142b541^-650"/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: incomplete implementation of class 'AppDelegate'/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: method definition for '-fbSessionInvalidated' not found/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: method definition for '-fbDidLogout' not found/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: method definition for '-fbDidNotLogin:' not found/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m:197: warning: class 'AppDelegate' does not fully implement the 'FBSessionDelegate' protocol5(21%IDEActivityLogMessage2@48"Incomplete implementation of class 'AppDelegate'-356708634#0#123#-1#-23%DVTTextDocumentLocation3@75"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m0000000000000000^196#18446744073709551615#196#18446744073709551615#18446744073709551615#0#38"Incomplete implementation of class '*'--2@55"Method definition for '-fbSessionInvalidated' not found-356708634#123#130#-1#-3@75"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m0000000000000000^196#18446744073709551615#196#18446744073709551615#18446744073709551615#0#35"Method definition for '*' not found--2@46"Method definition for '-fbDidLogout' not found-356708634#253#121#-1#-3@75"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m0000000000000000^196#18446744073709551615#196#18446744073709551615#18446744073709551615#0#35"Method definition for '*' not found--2@49"Method definition for '-fbDidNotLogin:' not found-356708634#374#124#-1#-3@75"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m0000000000000000^196#18446744073709551615#196#18446744073709551615#18446744073709551615#0#35"Method definition for '*' not found--2@77"Class 'AppDelegate' does not fully implement the 'FBSessionDelegate' protocol-356708634#498#152#-1#-3@75"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m0000000000000000^196#18446744073709551615#196#18446744073709551615#18446744073709551615#0#51"Class '*' does not fully implement the '*' protocol--0#0#0#-19%DVTDocumentLocation4@75"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m0000000000000000^2380"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/AppDelegate.o Factions/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/AppDelegate.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/AppDelegate.o36"54DF893B-15E4-4F87-B103-8975D16D7C15-
 
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/CCAction.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/CCAction.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s356684546.321764
@@ -4196,6 +4542,97 @@ xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/ES1Renderer.m247e25049342b541^babb3e049342b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/ES1Renderer.m0000000000000000^2434"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/ES1Renderer.o Factions/libs/cocos2d/Platforms/iOS/ES1Renderer.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/iOS/ES1Renderer.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/ES1Renderer.o36"AF73FD2B-8F30-4E71-9CF6-CBFC8E1DD383-
 
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBDialog.o /Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708483.452614
+e356708484.092723
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBDialog.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.maeef7383f042b541^e7c71784f042b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.m0000000000000000^2376"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBDialog.o Factions/src/FBDialog.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBDialog.o36"007F3492-A2E6-4A07-B65C-195E55F1A844-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBFrictionlessRequestSettings.o /Users/Jeremy/Documents/factions-ios/Factions/src/FBFrictionlessRequestSettings.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708483.452619
+e356708484.009438
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBFrictionlessRequestSettings.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/FBFrictionlessRequestSettings.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/FBFrictionlessRequestSettings.m95f17383f042b541^b56b0284f042b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/FBFrictionlessRequestSettings.m0000000000000000^2460"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBFrictionlessRequestSettings.o Factions/src/FBFrictionlessRequestSettings.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/FBFrictionlessRequestSettings.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBFrictionlessRequestSettings.o36"CA611B96-5041-45BF-BAE5-F89C6ED09C38-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBLoginDialog.o /Users/Jeremy/Documents/factions-ios/Factions/src/FBLoginDialog.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708483.781015
+e356708484.018444
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBLoginDialog.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/FBLoginDialog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/FBLoginDialog.mfa08c883f042b541^0abf0484f042b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/FBLoginDialog.m0000000000000000^2396"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBLoginDialog.o Factions/src/FBLoginDialog.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/FBLoginDialog.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBLoginDialog.o36"44F036A3-5017-4C7C-89D9-AA62172B90CC-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBRequest.o /Users/Jeremy/Documents/factions-ios/Factions/src/FBRequest.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708483.927986
+e356708484.131231
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBRequest.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/FBRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/FBRequest.m79e6ed83f042b541^d5972184f042b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/FBRequest.m0000000000000000^2380"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBRequest.o Factions/src/FBRequest.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/FBRequest.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FBRequest.o36"76CF795E-3C66-408B-9A69-4006684BACC6-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/Facebook.o /Users/Jeremy/Documents/factions-ios/Factions/src/Facebook.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708483.451614
+e356708484.124602
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/Facebook.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/Facebook.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/Facebook.mb7b37383f042b541^b8e51f84f042b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/Facebook.m0000000000000000^2376"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/Facebook.o Factions/src/Facebook.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/Facebook.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/Facebook.o36"F333B740-15CA-464E-92B1-C63D03F60A11-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionAnnotation.o /Users/Jeremy/Documents/factions-ios/Factions/FactionAnnotation.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708483.451541
+e356708483.926173
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionAnnotation.o
+x/Users/Jeremy/Documents/factions-ios/Factions/FactionAnnotation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Jeremy/Documents/factions-ios/Factions/FactionAnnotation.meba77383f042b541^821bed83f042b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/FactionAnnotation.m0000000000000000^2404"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionAnnotation.o Factions/FactionAnnotation.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/FactionAnnotation.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionAnnotation.o36"DF35E36B-4DE8-4621-9AD6-12F4C1140AFE-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionsScene.o /Users/Jeremy/Documents/factions-ios/Factions/FactionsScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708484.084223
+e356708484.178206
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionsScene.o
+x/Users/Jeremy/Documents/factions-ios/Factions/FactionsScene.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/Jeremy/Documents/factions-ios/Factions/FactionsScene.mcdb01584f042b541^1b9f2d84f042b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/FactionsScene.m0000000000000000^2388"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionsScene.o Factions/FactionsScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/FactionsScene.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FactionsScene.o36"E330A1C9-9BE3-428A-B7A1-5DD6E0B62B83-
+
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FontLabel.o /Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/FontLabel.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s356684548.753024
 e356684548.896422
@@ -4236,8 +4673,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/FontManager.m2c0fda049342b541^e42eee049342b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/FontManager.m0000000000000000^2410"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FontManager.o Factions/libs/FontLabel/FontManager.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/libs/FontLabel/FontManager.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/FontManager.o36"839E0FD5-8F2E-4AA1-A22D-57562544D56E-
 
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/HelloWorldLayer.o /Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s356684548.985443
-e356684549.124855
+s356709777.068773
+e356709777.483888
 r1
 xCompileC
 xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/HelloWorldLayer.o
@@ -4246,7 +4683,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.mf566fc049342b541^c2f61f059342b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.m0000000000000000^2396"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/HelloWorldLayer.o Factions/HelloWorldLayer.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/HelloWorldLayer.o36"4E33EDB9-79B7-42B2-9712-DF73F984DA8E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.m89b41191f542b541^05e07b91f542b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.m0000000000000000^2396"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/HelloWorldLayer.o Factions/HelloWorldLayer.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/HelloWorldLayer.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/HelloWorldLayer.o36"A113AFAC-E664-4361-AC13-B941BB068CBA-
 
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MacGLView.o /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/Mac/MacGLView.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s356684548.238881
@@ -4275,8 +4712,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/Mac/MacWindow.m0b293f049342b541^1fbe48049342b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/Mac/MacWindow.m0000000000000000^2426"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MacWindow.o Factions/libs/cocos2d/Platforms/Mac/MacWindow.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/libs/cocos2d/Platforms/Mac/MacWindow.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MacWindow.o36"4FB04E08-C688-4557-B187-FA31BB65D295-
 
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MainScene.o /Users/Jeremy/Documents/factions-ios/Factions/MainScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s356684549.126085
-e356684549.211207
+s356709777.068807
+e356709777.471364
 r1
 xCompileC
 xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MainScene.o
@@ -4285,11 +4722,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/Jeremy/Documents/factions-ios/Factions/MainScene.m8d6320059342b541^dc1136059342b541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/MainScene.m0000000000000000^2372"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MainScene.o Factions/MainScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/MainScene.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MainScene.o36"F30A7244-AF1D-45E5-B4AC-2EEF981F72C8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/Jeremy/Documents/factions-ios/Factions/MainScene.mb3b21191f542b541^fcaa7891f542b541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/MainScene.m0000000000000000^2372"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MainScene.o Factions/MainScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/MainScene.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MainScene.o36"D0E08FE8-5ACF-4A06-918F-20C690EEFFCB-
 
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MarkerAnnotation.o /Users/Jeremy/Documents/factions-ios/Factions/MarkerAnnotation.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s356684549.113091
-e356684549.167918
+s356708483.451490
+e356708483.779673
 r1
 xCompileC
 xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MarkerAnnotation.o
@@ -4298,7 +4735,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Jeremy/Documents/factions-ios/Factions/MarkerAnnotation.m130a1d059342b541^bdfc2a059342b541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/MarkerAnnotation.m0000000000000000^2400"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MarkerAnnotation.o Factions/MarkerAnnotation.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/MarkerAnnotation.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MarkerAnnotation.o36"9DC028C6-8065-4518-9171-30104F4C5BE0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Jeremy/Documents/factions-ios/Factions/MarkerAnnotation.mc9ab7383f042b541^9199c783f042b541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/MarkerAnnotation.m0000000000000000^2400"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MarkerAnnotation.o Factions/MarkerAnnotation.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/MarkerAnnotation.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/MarkerAnnotation.o36"8D067D43-57AF-4C0B-A51C-775AC9716778-
 
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSDictionary_JSONExtensions.o /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/Extensions/NSDictionary_JSONExtensions.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s356684548.695695
@@ -4313,6 +4750,32 @@ xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/Extensions/NSDictionary_JSONExtensions.md635b2049342b541^10adc5049342b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/Extensions/NSDictionary_JSONExtensions.m0000000000000000^2496"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSDictionary_JSONExtensions.o Factions/libs/TouchJSON/Extensions/NSDictionary_JSONExtensions.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/libs/TouchJSON/Extensions/NSDictionary_JSONExtensions.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSDictionary_JSONExtensions.o36"B97D5D6E-6EB9-4949-958C-93685E0D04FA-
 
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708483.970924
+e356708484.048221
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSObject+SBJSON.md6c6f883f042b541^e5620c84f042b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSObject+SBJSON.m0000000000000000^2414"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSObject+SBJSON.o Factions/src/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSObject+SBJSON.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSObject+SBJSON.o36"57D6C96C-56BC-41A7-9156-3D2214F3DAD9-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSString+SBJSON.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708484.010842
+e356708484.082842
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSString+SBJSON.m54e60284f042b541^ff3c1584f042b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSString+SBJSON.m0000000000000000^2414"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSString+SBJSON.o Factions/src/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/NSString+SBJSON.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/NSString+SBJSON.o36"F54A32AF-7512-4129-B570-60626E748B11-
+
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/RootViewController.o /Users/Jeremy/Documents/factions-ios/Factions/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s356684546.132434
 e356684546.357070
@@ -4325,6 +4788,58 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Jeremy/Documents/factions-ios/Factions/RootViewController.m150122029342b541^cf685b029342b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/RootViewController.m0000000000000000^2408"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/RootViewController.o Factions/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/RootViewController.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/RootViewController.o36"FEB0BD09-B42F-43AB-965A-480CFC11AE27-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJSON.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708484.019799
+e356708484.116528
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJSON.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJSON.m87310584f042b541^1bd51d84f042b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJSON.m0000000000000000^2378"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJSON.o Factions/src/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJSON.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJSON.o36"1D01A132-ED1A-4F6C-A856-8CA07872509A-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonBase.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708484.026236
+e356708484.105514
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonBase.me1ec0684f042b541^f3031b84f042b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonBase.m0000000000000000^2394"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonBase.o Factions/src/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonBase.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonBase.o36"4EFFF46B-B205-4D11-A4E2-B123E20A1F67-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonParser.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708484.032707
+e356708484.169749
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonParser.m52800884f042b541^cd742b84f042b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonParser.m0000000000000000^2402"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonParser.o Factions/src/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonParser.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonParser.o36"0EC61139-4C22-4B28-B609-819428F4861A-
+
+CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonWriter.o /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s356708484.049578
+e356708484.158745
+r1
+xCompileC
+xDerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonWriter.mf2d30c84f042b541^40a32884f042b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonWriter.m0000000000000000^2402"CompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonWriter.o Factions/src/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/Jeremy/Documents/factions-ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -mthumb -miphoneos-version-min=5.0 -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-generated-files.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-own-target-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-all-target-headers.hmap -iquote /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions-project-headers.hmap -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/include -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources/armv7 -I/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/DerivedSources -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -include /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-dysaelynmzxwbzdhyidxdqsibawb/Prefix.pch -c /Users/Jeremy/Documents/factions-ios/Factions/src/JSON/SBJsonWriter.m -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SBJsonWriter.o36"41CB62E8-5816-4675-8E88-78AAD8392455-
 
 CCompileC DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/SimpleAudioEngine.o /Users/Jeremy/Documents/factions-ios/Factions/libs/CocosDenshion/SimpleAudioEngine.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s356684548.462815
@@ -4545,6 +5060,24 @@ x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-
 xFactions/Resources/Icon@2x.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon@2x.png Factions/Resources/Icon@2x.png8126d2059342b541^6cecde059342b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/Resources/Icon@2x.png0000000000000000^735"CopyPNGFile "DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon@2x.png" "Factions/Resources/Icon@2x.png"    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Jeremy/Documents/factions-ios/Factions/Resources/Icon@2x.png" "/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Icon@2x.png"36"BA697B83-E256-425D-8FDA-8266B91577D2-
 
+CCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/backButton.png Factions/backButton.png
+s356708484.720824
+e356708484.784860
+r1
+xCopyPNGFile
+x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/backButton.png
+xFactions/backButton.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/backButton.png Factions/backButton.pngd997b884f042b541^1bf1c884f042b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/backButton.png0000000000000000^719"CopyPNGFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/backButton.png Factions/backButton.png    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Jeremy/Documents/factions-ios/Factions/backButton.png /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/backButton.png36"5C293F41-69EA-4664-95D1-527037BFDB72-
+
+CCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/boxBg.png Factions/boxBg.png
+s356708484.720888
+e356708484.787285
+r1
+xCopyPNGFile
+x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/boxBg.png
+xFactions/boxBg.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/boxBg.png Factions/boxBg.pngcb9eb884f042b541^8f8cc984f042b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/boxBg.png0000000000000000^699"CopyPNGFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/boxBg.png Factions/boxBg.png    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Jeremy/Documents/factions-ios/Factions/boxBg.png /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/boxBg.png36"674BAAD7-0F3C-4E99-9543-D6215B6A10D6-
+
 CCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/buttonWide.png Factions/buttonWide.png
 s356684549.878983
 e356684549.902778
@@ -4553,6 +5086,15 @@ xCopyPNGFile
 x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/buttonWide.png
 xFactions/buttonWide.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/buttonWide.png Factions/buttonWide.png8010e1059342b541^fc1ce7059342b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/buttonWide.png0000000000000000^719"CopyPNGFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/buttonWide.png Factions/buttonWide.png    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Jeremy/Documents/factions-ios/Factions/buttonWide.png /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/buttonWide.png36"CDBC5CEA-9BEE-45A4-98E9-C618D6239708-
+
+CCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/circleButton.png Factions/circleButton.png
+s356708484.720814
+e356708484.784744
+r1
+xCopyPNGFile
+x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/circleButton.png
+xFactions/circleButton.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/circleButton.png Factions/circleButton.png1899b884f042b541^60e5c884f042b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/circleButton.png0000000000000000^727"CopyPNGFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/circleButton.png Factions/circleButton.png    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Jeremy/Documents/factions-ios/Factions/circleButton.png /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/circleButton.png36"38153B38-1D34-4AF5-AF4D-45BCA997C744-
 
 CCopyPNGFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/fps_images.png Factions/Resources/fps_images.png
 s356684549.658556
@@ -4590,33 +5132,42 @@ xFactions/background.jpg
 xDerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/background.jpg
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/background.jpgec32e0059342b541^20b6e0059342b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/background.jpg000000000080d041^725"CpResource Factions/background.jpg DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/background.jpg    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Jeremy/Documents/factions-ios/Factions/background.jpg /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app36"B3E50446-3873-46AC-975A-6E97A0C429B3-
 
+CCpResource Factions/src/FBDialog.bundle DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/FBDialog.bundle
+s356708484.720882
+e356708484.726791
+r1
+xCpResource
+xFactions/src/FBDialog.bundle
+xDerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/FBDialog.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/FBDialog.bundle3d9cb884f042b541^f50fba84f042b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/FBDialog.bundle000000000080d041^736"CpResource Factions/src/FBDialog.bundle DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/FBDialog.bundle    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Jeremy/Documents/factions-ios/Factions/src/FBDialog.bundle /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app36"9C469F72-F783-4332-AC05-A303D7D611AB-
+
 CGenerateDSYMFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions
-s356684631.707027
-e356684631.818923
+s356709777.717080
+e356709777.880999
 r1
 xGenerateDSYMFile
 x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM
 x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generating /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYMa81eb5579342b541^55a5d1579342b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM/0000000000000000^674"GenerateDSYMFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM36"E3F4236E-6EE5-4EB1-AC2C-FAE26E301840-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generating /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM37ffb791f542b541^558ae191f542b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM/0000000000000000^674"GenerateDSYMFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app.dSYM36"323BFBB6-CD6B-4009-B6FC-0F7FFD3393BD-
 
 CLd /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions normal armv7
-s356684549.218259
-e356684549.526487
+s356709777.491089
+e356709777.710053
 r1
 xLd
 x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions
 xnormal
 xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factionsf5f237059342b541^82c886059342b541^---0#0#0#--1318"Ld DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions normal armv7    cd /Users/Jeremy/Documents/factions-ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -filelist /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/Factions.LinkFileList -dead_strip -lz -miphoneos-version-min=5.0 -framework MapKit -framework CoreLocation -framework QuartzCore -framework OpenGLES -framework OpenAL -framework AudioToolbox -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions36"25AD85C0-BCB8-4770-8248-517B4A980051-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions04c77d91f542b541^85ebc591f542b541^---0#0#0#--1318"Ld DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions normal armv7    cd /Users/Jeremy/Documents/factions-ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -F/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos -filelist /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Objects-normal/armv7/Factions.LinkFileList -dead_strip -lz -miphoneos-version-min=5.0 -framework MapKit -framework CoreLocation -framework QuartzCore -framework OpenGLES -framework OpenAL -framework AudioToolbox -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Factions36"8C7C8213-6B5A-42A5-BD0F-85E0D2EDAA82-
 
 CProcessInfoPlistFile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Info.plist Factions/Resources/Info.plist
-s356684545.652404
-e356684545.658974
+s356708812.161102
+e356708812.163789
 r1
 xProcessInfoPlistFile
 x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Info.plist
 xFactions/Resources/Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Process Factions/Resources/Info.plist8c13a7019342b541^96b2a8019342b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/Resources/Info.plist0000000000000000^848"ProcessInfoPlistFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Info.plist Factions/Resources/Info.plist    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Factions/Resources/Info.plist -genpkginfo /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/ResourceRules.plist -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Info.plist36"354823EA-0183-43C4-825D-7CC938E1625E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Process Factions/Resources/Info.plistbe4b29ccf142b541^a1f32accf142b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Jeremy/Documents/factions-ios/Factions/Resources/Info.plist0000000000000000^848"ProcessInfoPlistFile DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Info.plist Factions/Resources/Info.plist    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Factions/Resources/Info.plist -genpkginfo /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/ResourceRules.plist -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/Info.plist36"D71562E0-7B3D-401E-881B-33B0959B3651-
 
 CProcessPCH /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/PrecompiledHeaders/Prefix-aabsdqtmvfmflshffsrrasvdefdz/Prefix.pch.gch Factions/Prefix.pch normal armv7 c com.apple.compilers.llvmgcc42
 r0
@@ -4672,19 +5223,19 @@ x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection224"ProcessProductPackaging "/Users/Jeremy/Library/MobileDevice/Provisioning Profiles/71902BD3-3360-4274-8EDE-C6F3D52CA8DA.mobileprovision" DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/embedded.mobileprovisionc826ed059342b541^f8e0ed059342b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/embedded.mobileprovision0000000000000000^734"ProcessProductPackaging "/Users/Jeremy/Library/MobileDevice/Provisioning Profiles/71902BD3-3360-4274-8EDE-C6F3D52CA8DA.mobileprovision" DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/embedded.mobileprovision    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/Jeremy/Library/MobileDevice/Provisioning Profiles/71902BD3-3360-4274-8EDE-C6F3D52CA8DA.mobileprovision" -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app/embedded.mobileprovision36"B688C4EE-CFDD-41DF-9436-BB2A9091476D-
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent
-s356684549.953266
-e356684549.957898
+s356708812.267957
+e356708812.271522
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
 x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection245"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcentd72ff4059342b541^2239f5059342b541^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent000000000080d041^802"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent36"621E483E-8007-404D-B924-24436F0B4CD7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection245"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent6da844ccf142b541^bf8046ccf142b541^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent0000000000000000^802"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Intermediates/Factions.build/Debug-iphoneos/Factions.build/Factions.xcent36"3E95E001-528A-4317-89F8-7222C2DF4392-
 
 CTouch /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app
-s356684549.937813
-e356684549.943980
+s356709777.916333
+e356709777.922963
 r1
 xTouch
 x/Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Touch /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app9224f0059342b541^33a9f1059342b541^---0#0#0#--425"Touch DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app36"4F328F9D-6BD7-460E-B089-A60700693C5E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Touch /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app36abea91f542b541^d447ec91f542b541^---0#0#0#--425"Touch DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app    cd /Users/Jeremy/Documents/factions-ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jeremy/Documents/factions-ios/DerivedData/Factions/Build/Products/Debug-iphoneos/Factions.app36"A05C4907-AA3E-445C-B10B-7F3A9DBAC400-
 

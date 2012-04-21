@@ -86,6 +86,11 @@
         box.position = ccp(winSize.width/2, winSize.height - 140);
         [self addChild:box z:1];
         
+        CCLabelTTF *coins = [CCLabelTTF labelWithString:[NSString stringWithFormat:@"Coins: %d", 100] fontName:@"Helvetica" fontSize:15.0];
+        coins.anchorPoint = ccp(0.0f, 0.5f);
+        coins.position = ccp(25, 25);
+        [self addChild:coins z:10];
+        
     }
     return self;
 }

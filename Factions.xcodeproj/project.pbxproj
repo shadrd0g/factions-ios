@@ -27,6 +27,10 @@
 		3F6C96331542CE6500E8E834 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C96231542CE6500E8E834 /* SBJsonParser.m */; };
 		3F6C96341542CE6500E8E834 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C96251542CE6500E8E834 /* SBJsonWriter.m */; };
 		3F6C963A1542D10300E8E834 /* boxBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6C96391542D10300E8E834 /* boxBg.png */; };
+		3F6C963D1542D94400E8E834 /* FactionsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C963C1542D94400E8E834 /* FactionsScene.m */; };
+		3F6C96531542F81500E8E834 /* CreateAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C96521542F81500E8E834 /* CreateAccount.m */; };
+		3F6C965F1543012400E8E834 /* submitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6C965E1543012400E8E834 /* submitButton.png */; };
+		3F6C96611543038100E8E834 /* textbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6C96601543038100E8E834 /* textbg.png */; };
 		3F7BA30D15427DC100529761 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7BA30C15427DC100529761 /* QuartzCore.framework */; };
 		3F7BA30F15427DC100529761 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7BA30E15427DC100529761 /* OpenGLES.framework */; };
 		3F7BA31115427DC100529761 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7BA31015427DC100529761 /* OpenAL.framework */; };
@@ -196,6 +200,12 @@
 		3F6C96241542CE6500E8E834 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		3F6C96251542CE6500E8E834 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		3F6C96391542D10300E8E834 /* boxBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxBg.png; sourceTree = "<group>"; };
+		3F6C963B1542D94400E8E834 /* FactionsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactionsScene.h; sourceTree = "<group>"; };
+		3F6C963C1542D94400E8E834 /* FactionsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactionsScene.m; sourceTree = "<group>"; };
+		3F6C96511542F81500E8E834 /* CreateAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccount.h; sourceTree = "<group>"; };
+		3F6C96521542F81500E8E834 /* CreateAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccount.m; sourceTree = "<group>"; };
+		3F6C965E1543012400E8E834 /* submitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitButton.png; sourceTree = "<group>"; };
+		3F6C96601543038100E8E834 /* textbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbg.png; sourceTree = "<group>"; };
 		3F7BA30815427DC100529761 /* Factions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Factions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7BA30C15427DC100529761 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3F7BA30E15427DC100529761 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -550,8 +560,12 @@
 				3F7BA46F15427DC200529761 /* AppDelegate.m */,
 				3F7BA47115427DC200529761 /* RootViewController.h */,
 				3F7BA47215427DC200529761 /* RootViewController.m */,
+				3F6C96511542F81500E8E834 /* CreateAccount.h */,
+				3F6C96521542F81500E8E834 /* CreateAccount.m */,
 				3F15AA9215428A4B00044356 /* MainScene.h */,
 				3F15AA9315428A4B00044356 /* MainScene.m */,
+				3F6C963B1542D94400E8E834 /* FactionsScene.h */,
+				3F6C963C1542D94400E8E834 /* FactionsScene.m */,
 				3F7BA47415427DC200529761 /* HelloWorldLayer.h */,
 				3F7BA47515427DC200529761 /* HelloWorldLayer.m */,
 				3F15AAA11542AED900044356 /* FactionAnnotation.h */,
@@ -571,6 +585,8 @@
 		3F7BA31D15427DC100529761 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3F6C96601543038100E8E834 /* textbg.png */,
+				3F6C965E1543012400E8E834 /* submitButton.png */,
 				3F6C96391542D10300E8E834 /* boxBg.png */,
 				3F15AA9F1542992400044356 /* backButton.png */,
 				3F15AA9B1542961300044356 /* circleButton.png */,
@@ -982,6 +998,8 @@
 				3F15AAA01542992400044356 /* backButton.png in Resources */,
 				3F6C962A1542CE6500E8E834 /* FBDialog.bundle in Resources */,
 				3F6C963A1542D10300E8E834 /* boxBg.png in Resources */,
+				3F6C965F1543012400E8E834 /* submitButton.png in Resources */,
+				3F6C96611543038100E8E834 /* textbg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1105,6 +1123,8 @@
 				3F6C96321542CE6500E8E834 /* SBJsonBase.m in Sources */,
 				3F6C96331542CE6500E8E834 /* SBJsonParser.m in Sources */,
 				3F6C96341542CE6500E8E834 /* SBJsonWriter.m in Sources */,
+				3F6C963D1542D94400E8E834 /* FactionsScene.m in Sources */,
+				3F6C96531542F81500E8E834 /* CreateAccount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
