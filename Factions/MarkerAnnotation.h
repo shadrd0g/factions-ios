@@ -10,7 +10,7 @@
 }
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, retain) NSString *description;
-@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
+@property (nonatomic, readwrite) CLLocationCoordinate2D coordinate;
 
 -(id) initWithCoordinate:(CLLocationCoordinate2D) coordinate;
 

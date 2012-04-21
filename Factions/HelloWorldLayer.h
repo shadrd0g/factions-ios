@@ -16,6 +16,7 @@
 @interface HelloWorldLayer : CCLayer <MKMapViewDelegate>
 {
     NSArray *myAnnotations;
+    MKMapView *map;
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child

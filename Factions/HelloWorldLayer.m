@@ -12,6 +12,7 @@
 #import "CCUIViewWrapper.h"
 #import <MapKit/MapKit.h>
 #import "MarkerAnnotation.h"
+#import "MainScene.h"
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -31,13 +32,17 @@
 	return scene;
 }
 
+-(void)goBack {
+    [[CCDirector sharedDirector] replaceScene:[MainScene scene]];
+}
+
 // on "init" you need to initialize your instance
 -(id) init
 {
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
-        MKMapView * map = [[MKMapView alloc] initWithFrame: CGRectMake(0, 0, 320, 480)];
+        map = [[MKMapView alloc] initWithFrame: CGRectMake(0, 0, 320, 430)];
         map.delegate = self;
         //Define map view region
         MKCoordinateSpan span;
@@ -97,11 +102,48 @@
         //add array of annotations to map
         [map addAnnotations:myAnnotations];
         
+        CGSize winSize = [CCDirector sharedDirector].winSize;
+        
         CCUIViewWrapper *wrapper = [CCUIViewWrapper wrapperForUIView:map];
+        wrapper.position = ccp(0, winSize.height-50);
         [self addChild:wrapper];
+        CCMenuItemSprite *backButton = [CCMenuItemSprite itemFromNormalSprite:[CCSprite spriteWithFile:@"backButton.png"] selectedSprite:[CCSprite spriteWithFile:@"backButton.png"] target:self selector:@selector(goBack)];
+        backButton.position = ccp(25, 480-25);
+        CCMenu *menu = [CCMenu menuWithItems:backButton, nil];
+        menu.position = CGPointZero;
+        [self addChild:menu];
+        
+        // Long press gesture recogniser
+        UILongPressGestureRecognizer *longPressGesture = [[UILongPressGestureRecognizer alloc]
+                                                          initWithTarget:self 
+                                                          action:@selector(handleLongPressGesture:)];
+        [map addGestureRecognizer:longPressGesture];
+        [longPressGesture release];
+
 	}
 	return self;
 }
+
+-(void)handleLongPressGesture:(UILongPressGestureRecognizer*)sender 
+{
+    if (sender.state == UIGestureRecognizerStateEnded) {
+        CGPoint touchPoint = [sender locationInView:map];   
+        CLLocationCoordinate2D touchMapCoordinate = [map convertPoint:touchPoint toCoordinateFromView:map];
+        
+        MyAnnotationClass *annot = [[MyAnnotationClass alloc] init];
+        annot.coordinate = touchMapCoordinate;
+        annot.name = @"Name";
+        [map addAnnotation:annot];
+        
+        static NSString *identifier = @"MyLocation";   
+        MKPinAnnotationView *annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annot reuseIdentifier:identifier];
+        annotationView.enabled = YES;
+        annotationView.canShowCallout = YES;
+        [annot release];
+
+    }
+}
+
 
 -(MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id )overlay{
     if([overlay isKindOfClass:[MKPolygon class]]){
@@ -125,6 +167,8 @@
             annotationView=[[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:parkingAnnotationIdentifier];
             //Here's where the magic happens
             annotationView.image=[UIImage imageNamed:@"Icon-Small.png"];
+            annotationView.enabled = YES;
+            annotationView.canShowCallout = YES;
         }
         return annotationView;
     }

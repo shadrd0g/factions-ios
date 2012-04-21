@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3F15AA90154287D700044356 /* MarkerAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15AA8F154287D700044356 /* MarkerAnnotation.m */; };
+		3F15AA9415428A4B00044356 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15AA9315428A4B00044356 /* MainScene.m */; };
+		3F15AA98154290DF00044356 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F15AA97154290DF00044356 /* background.jpg */; };
+		3F15AA9A1542925A00044356 /* buttonWide.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F15AA991542925A00044356 /* buttonWide.png */; };
+		3F15AA9C1542961300044356 /* circleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F15AA9B1542961300044356 /* circleButton.png */; };
+		3F15AAA01542992400044356 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F15AA9F1542992400044356 /* backButton.png */; };
 		3F7BA30D15427DC100529761 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7BA30C15427DC100529761 /* QuartzCore.framework */; };
 		3F7BA30F15427DC100529761 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7BA30E15427DC100529761 /* OpenGLES.framework */; };
 		3F7BA31115427DC100529761 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7BA31015427DC100529761 /* OpenAL.framework */; };
@@ -131,6 +136,12 @@
 /* Begin PBXFileReference section */
 		3F15AA8E154287D700044356 /* MarkerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerAnnotation.h; sourceTree = "<group>"; };
 		3F15AA8F154287D700044356 /* MarkerAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerAnnotation.m; sourceTree = "<group>"; };
+		3F15AA9215428A4B00044356 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		3F15AA9315428A4B00044356 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		3F15AA97154290DF00044356 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		3F15AA991542925A00044356 /* buttonWide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonWide.png; sourceTree = "<group>"; };
+		3F15AA9B1542961300044356 /* circleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleButton.png; sourceTree = "<group>"; };
+		3F15AA9F1542992400044356 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		3F7BA30815427DC100529761 /* Factions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Factions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7BA30C15427DC100529761 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3F7BA30E15427DC100529761 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -434,6 +445,8 @@
 				3F7BA46F15427DC200529761 /* AppDelegate.m */,
 				3F7BA47115427DC200529761 /* RootViewController.h */,
 				3F7BA47215427DC200529761 /* RootViewController.m */,
+				3F15AA9215428A4B00044356 /* MainScene.h */,
+				3F15AA9315428A4B00044356 /* MainScene.m */,
 				3F7BA47415427DC200529761 /* HelloWorldLayer.h */,
 				3F7BA47515427DC200529761 /* HelloWorldLayer.m */,
 				3F15AA8E154287D700044356 /* MarkerAnnotation.h */,
@@ -451,6 +464,10 @@
 		3F7BA31D15427DC100529761 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3F15AA9F1542992400044356 /* backButton.png */,
+				3F15AA9B1542961300044356 /* circleButton.png */,
+				3F15AA991542925A00044356 /* buttonWide.png */,
+				3F15AA97154290DF00044356 /* background.jpg */,
 				3F7BA31E15427DC100529761 /* Default.png */,
 				3F7BA32015427DC100529761 /* fps_images.png */,
 				3F7BA32215427DC100529761 /* Icon-72.png */,
@@ -835,6 +852,10 @@
 				3F7BA32B15427DC100529761 /* Icon.png in Resources */,
 				3F7BA32D15427DC100529761 /* Icon@2x.png in Resources */,
 				3F7BA33015427DC100529761 /* iTunesArtwork in Resources */,
+				3F15AA98154290DF00044356 /* background.jpg in Resources */,
+				3F15AA9A1542925A00044356 /* buttonWide.png in Resources */,
+				3F15AA9C1542961300044356 /* circleButton.png in Resources */,
+				3F15AAA01542992400044356 /* backButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,6 +966,7 @@
 				3F7BA47615427DC200529761 /* HelloWorldLayer.m in Sources */,
 				3F7BA47F15427DF300529761 /* CCUIViewWrapper.m in Sources */,
 				3F15AA90154287D700044356 /* MarkerAnnotation.m in Sources */,
+				3F15AA9415428A4B00044356 /* MainScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -997,6 +1019,7 @@
 				GCC_PREFIX_HEADER = Factions/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = Factions/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1012,6 +1035,7 @@
 				GCC_PREFIX_HEADER = Factions/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = Factions/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
